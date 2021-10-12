@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Festive&display=swap');
+@import url('./home.css');
+@import url('./about.css');
+
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* 
+margin
+padding
+border 
+*/
+
+div {
+    margin: 10px; /* t r b l */
+    margin: 10px 10px; /* tb rl */
+    margin: 10px 10px 10px; /* t rl b */
+    margin: 10px 10px 10px 10px; /* t r b l */
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-top:10px double green;
+}
